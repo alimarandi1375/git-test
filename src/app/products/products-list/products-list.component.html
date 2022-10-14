@@ -1,0 +1,16 @@
+
+
+
+<div fxLayout="column" fxLayoutAlign="center center" class="container">
+  <div fxLayout="row wrap" fxLayoutAlign="start center" class="products-container row gap-5">
+    <div fxLayout="column" fxLayoutAlign="center center" class="card col-2" *ngFor="let product of productsService.products">
+      <img [src]="product.images[0]" class="card-img-top col-12" alt="">
+      <div fxLayout="column" fxLayoutAlign="start center" class="card-body col-12">
+        <h5 (mouseenter)="fullText(product.name , productName)" (mouseleave)="showSliceText(product.name,productName)" class="card-title col-12" #productName>
+          {{sliceText(product.name)}}
+        </h5>
+        <button class="btn btn-success col-12" fxLayoutAlign="center center">{{product.price}}</button>
+      </div>
+    </div>
+  </div>
+</div>

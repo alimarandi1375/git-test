@@ -1,0 +1,41 @@
+
+.intro{
+  background: url("../../assets/img/intro/intro1.jpg")  no-repeat center;
+  background-size: cover;
+  height: 30rem;
+
+  .intro-text{
+    position: relative;
+    top: 70px;
+
+    h1{
+      font-size: 70px;
+      color: white;
+      //text-shadow: black 20px 20px 20px;
+      text-shadow:
+        3px 3px 0 #252525,
+        -1px -1px 0 #252525,
+        1px -1px 0 #252525,
+        -1px 1px 0 #252525,
+        1px 1px 0 #252525;
+    }
+
+    i{
+      margin: 0 25px;
+      font-size: 40px;
+      color: white;
+      text-shadow:
+        3px 3px 0 #252525,
+        -1px -1px 0 #252525,
+        1px -1px 0 #252525,
+        -1px 1px 0 #252525,
+        1px 1px 0 #252525;
+    }
+
+  }
+
+
+
+}
+
+

@@ -1,0 +1,48 @@
+
+
+.products-container{
+  margin: 5rem 0;
+
+  .star {
+    font-size: 1.5rem;
+    color: #b0c4de;
+  }
+  .filled {
+    color: #1e90ff;
+  }
+  .bad {
+    color: #deb0b0;
+  }
+  .filled.bad {
+    color: #ff1e1e;
+  }
+
+  .card{
+    height: 20rem;
+    padding: 15px 15px!important;
+    cursor: pointer;
+    img{
+    }
+
+    .card-body{
+      padding: 0!important;
+      position: relative;
+      button{
+        position: absolute;
+        top: 50px;
+        background-color: #178881;
+        margin-top: 0.5rem;
+        &:hover{
+          background-color: #0e544f;
+        }
+      }
+      h5{
+        font-size: 16px;
+        margin-top: 11px;
+        direction: ltr;
+        position: relative;
+      }
+    }
+  }
+}
+

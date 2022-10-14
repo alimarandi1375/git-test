@@ -1,0 +1,10 @@
+
+
+<div fxLayout="row wrap" fxLayoutAlign="start center" class="blog container my-5 gap-4">
+  <div *ngFor="let blog of blogService.blogs" class="blog-box rounded-4 position-relative">
+    <img [src]="blog.image" alt="">
+    <div class="blog-text">
+      <p>{{blog.title}}</p>
+    </div>
+  </div>
+</div>

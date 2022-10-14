@@ -1,0 +1,14 @@
+
+.login-btn{
+  padding: 10px;
+  color: white;
+  background-color: #e62348;
+  &:hover{
+    background-color: #bd1d3c;
+  }
+
+  i{
+    font-size: 20px;
+    margin-left: 10px;
+  }
+}

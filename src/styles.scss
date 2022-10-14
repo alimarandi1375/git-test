@@ -2,3 +2,25 @@
 
 /* Importing Bootstrap SCSS file. */
 @import '~bootstrap/scss/bootstrap';
+@import "~bootstrap-icons/font/bootstrap-icons.css";
+@import "assets/fonts/fonts.css";
+@import "~animate.css/animate.min.css";
+
+html{
+  direction: rtl!important;
+}
+
+
+body {
+  background-color: #f7f7f7!important;
+}
+
+h1,h2,h3,h4,h5,h6{
+  font-family: lalezar , sans-serif;
+}
+
+p,div,span.button,ul,li,a,{
+  font-family: vazir , sans-serif;
+  text-decoration: none!important;
+}
+
