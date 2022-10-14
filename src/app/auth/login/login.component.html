@@ -1,1 +1,32 @@
-<p>login works!</p>
+<div fxLayout="row" fxLayoutAlign="center center">
+  <div class="col-12 col-md-8 col-lg-6 col-xl-5">
+    <form class="card bg-white text-dark mt-5" style="border-radius: 1rem;">
+      <div class="card-body p-5 text-center">
+
+        <div fxLayout="column" fxLayoutAlign="center center" class="mt-md-4 pb-5">
+          <app-logo [logoHeight]="'150px'" [logoType]="'logo-full'"></app-logo>
+          <h2 class="fw-bold mb-2 text-uppercase">ورود</h2>
+
+          <div class="form-outline form-dark mb-4">
+            <input type="email" id="typeEmailX" class="form-control form-control-lg"/>
+            <label class="form-label" for="typeEmailX">ایمیل</label>
+          </div>
+
+          <div class="form-outline form-dark mb-4">
+            <input type="password" id="typePasswordX" class="form-control form-control-lg"/>
+            <label class="form-label" for="typePasswordX">پسورد</label>
+          </div>
+
+          <p class="small mb-5 pb-lg-2"><a class="text-dark" href="#!">فراموشی رمز عبور؟</a></p>
+
+          <button class="btn btn-outline-success btn-lg px-5" type="submit">Login</button>
+
+          <p class="mt-5">ایجاد حساب کابری جدید! <a href="#!" class="text-white-50 fw-bold">Sign Up</a></p>
+        </div>
+        <div>
+        </div>
+
+      </div>
+    </form>
+  </div>
+</div>
